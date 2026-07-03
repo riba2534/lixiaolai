@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: '李笑来作品集'
-  text: '六本书，六个真相'
+  text: '六本书 · 一处安静的阅读之地'
   tagline: 怎样思考、怎样专注、财富从哪来、如何定投、怎样穿越周期——李笑来写给普通人的成长与财富认知地图。
   image:
     src: /covers/caifu-ziyou.jpg
@@ -12,9 +12,6 @@ hero:
     - theme: brand
       text: 进入书库
       link: '#书库'
-    - theme: alt
-      text: 下载 PDF
-      link: https://github.com/riba2534/lixiaolai/releases/latest
 
 features:
   - icon: 💰

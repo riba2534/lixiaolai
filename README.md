@@ -2,7 +2,7 @@
 
 # 李笑来作品集
 
-### 六本书，六个真相
+### 李笑来六部作品 · 在线阅读
 
 [![在线阅读](https://img.shields.io/badge/在线阅读-xiaolai.fate.red-b8863f?style=for-the-badge&logo=GoogleChrome&logoColor=white)](https://xiaolai.fate.red)
 [![下载 PDF](https://img.shields.io/github/v/release/riba2534/lixiaolai?style=for-the-badge&label=下载PDF&logo=adobeacrobatreader&logoColor=white&color=2A6DBB)](https://github.com/riba2534/lixiaolai/releases/latest)
