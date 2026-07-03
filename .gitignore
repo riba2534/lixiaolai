@@ -1,0 +1,20 @@
+# 原始 PDF（体积大、版权原因，不入库）
+raw/
+
+# OCR / 文本提取工作目录（中间产物）
+work/
+
+# 生成的数字版 PDF（发布到 GitHub Release，不入库）
+pdf/
+
+# Node
+node_modules/
+site/.vitepress/dist/
+site/.vitepress/cache/
+
+# 系统 / 杂项
+.DS_Store
+*.log
+__pycache__/
+.venv/
+covers/
