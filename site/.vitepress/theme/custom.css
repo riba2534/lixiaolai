@@ -179,6 +179,13 @@
   }
 }
 
+/* 侧边栏章节标题单行显示，超长省略 */
+.VPSidebarItem .VPLink .text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* 首页分节标题 */
 .home-section-title {
   text-align: center;
