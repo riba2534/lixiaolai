@@ -17,4 +17,4 @@ site/.vitepress/cache/
 *.log
 __pycache__/
 .venv/
-covers/
+/covers/
