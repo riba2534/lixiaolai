@@ -179,7 +179,12 @@
   }
 }
 
-/* 侧边栏章节标题单行显示，超长省略 */
+/* 侧边栏加宽至 340px，覆盖绝大多数章节标题的单行显示 */
+:root {
+  --vp-sidebar-width: 340px;
+}
+
+/* 侧边栏章节标题单行显示，超长省略（悬停有完整标题提示，见 theme/index.ts） */
 .VPSidebarItem .VPLink .text {
   white-space: nowrap;
   overflow: hidden;
