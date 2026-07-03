@@ -125,6 +125,58 @@
   margin-left: 4px;
 }
 
+/* 书籍落地页（/books/<slug>/） */
+.book-landing {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+  margin: 8px 0 16px;
+}
+
+.book-landing__cover {
+  width: 220px;
+  max-width: 38%;
+  flex-shrink: 0;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+
+.book-landing__meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.book-landing__meta h1 {
+  margin-top: 0;
+}
+
+.book-landing__start {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 8px 20px;
+  border-radius: 20px;
+  background: var(--vp-c-brand-1);
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none !important;
+  transition: background 0.2s ease;
+}
+
+.book-landing__start:hover {
+  background: var(--vp-c-brand-2);
+}
+
+@media (max-width: 640px) {
+  .book-landing {
+    flex-direction: column;
+    align-items: center;
+  }
+  .book-landing__cover {
+    max-width: 60%;
+  }
+}
+
 /* 首页分节标题 */
 .home-section-title {
   text-align: center;

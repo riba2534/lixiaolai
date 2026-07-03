@@ -21,6 +21,7 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   ignoreDeadLinks: false,
+  sitemap: { hostname: site.url },
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
