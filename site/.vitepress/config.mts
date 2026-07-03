@@ -10,7 +10,6 @@ const nav = [
     text: '全部作品',
     items: books.map((b) => ({ text: b.title, link: `/books/${b.slug}/` })),
   },
-  { text: '下载 PDF', link: 'https://github.com/riba2534/lixiaolai/releases/latest' },
 ]
 
 export default defineConfig({
