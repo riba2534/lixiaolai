@@ -292,6 +292,18 @@
   text-align: center;
 }
 
+/* 图片图注：紧跟图片段落、仅含斜体的段落（《书名》《指数名》等）*/
+.vp-doc p:has(img) + p:has(> em:only-child) {
+  text-align: center;
+  color: var(--vp-c-text-2);
+  font-size: 0.88em;
+  margin-top: -1em;
+  margin-bottom: 1.5em;
+}
+.vp-doc p:has(img) + p:has(> em:only-child) em {
+  font-style: normal;
+}
+
 /* 引用 */
 .vp-doc blockquote {
   border-left: 4px solid var(--vp-c-brand-1);

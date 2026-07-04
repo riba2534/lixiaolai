@@ -4,7 +4,9 @@
   "description": "李笑来作品精校电子书合集 — 在线阅读网站",
   "type": "module",
   "packageManager": "pnpm@10.28.1",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
@@ -14,9 +16,12 @@
     "vitepress": "^1.6.3"
   },
   "dependencies": {
-    "markdown-it-footnote": "^4.0.0"
+    "markdown-it-footnote": "^4.0.0",
+    "medium-zoom": "^1.1.0"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild"]
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
   }
 }
