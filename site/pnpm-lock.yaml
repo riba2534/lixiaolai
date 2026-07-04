@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@fontsource/noto-serif-sc':
+        specifier: ^5.2.7
+        version: 5.2.7
       markdown-it-footnote:
         specifier: ^4.0.0
         version: 4.0.0
@@ -274,6 +277,9 @@ packages:
     engines: {node: '>=12'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource/noto-serif-sc@5.2.7':
+    resolution: {integrity: sha512-gG0JQ++TkLZCkFxwAnemfvNcoTb769+2zKFB2RFMi/KvnJ6pLE1sMDvo+MKhoLTBKlko8HVVQXCa3JZTZjC8Qg==}
 
   '@iconify-json/simple-icons@1.2.88':
     resolution: {integrity: sha512-+cvi1qCuvReL29ehi6t62L4fb7GDXe+UlGHFcsJcV7I2l9wtqn9XE2IBKcDr3CI5iGUGS5ISnXv699pSGpyx1Q==}
@@ -1041,6 +1047,8 @@ snapshots:
 
   '@esbuild/win32-x64@0.21.5':
     optional: true
+
+  '@fontsource/noto-serif-sc@5.2.7': {}
 
   '@iconify-json/simple-icons@1.2.88':
     dependencies:

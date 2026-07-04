@@ -25,13 +25,6 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
     ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' }],
-    [
-      'link',
-      {
-        href: 'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&display=swap',
-        rel: 'stylesheet',
-      },
-    ],
     ['meta', { name: 'author', content: '李笑来' }],
     ['meta', { name: 'keywords', content: '李笑来,财富自由之路,韭菜的自我修养,财富的真相,专注的真相,思考的真相,让时间陪你慢慢变富,电子书,在线阅读' }],
     ['meta', { property: 'og:title', content: site.name }],
@@ -48,6 +41,34 @@ export default defineConfig({
     config: (md) => {
       md.use(footnote)
     },
+  },
+
+  // 页面元数据独立成 chunk，正文改动不再让全站 hash 失效
+  metaChunk: true,
+
+  // 书籍落地页注入 Book 结构化数据（搜索引擎富媒体结果）
+  transformHead({ pageData }) {
+    const m = pageData.relativePath.match(/^books\/([^/]+)\/index\.md$/)
+    if (!m) return
+    const book = books.find((b) => b.slug === m[1])
+    if (!book) return
+    return [
+      [
+        'script',
+        { type: 'application/ld+json' },
+        JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Book',
+          name: book.title,
+          author: { '@type': 'Person', name: book.author },
+          datePublished: String(book.year),
+          inLanguage: 'zh-CN',
+          image: `${site.url}${book.cover}`,
+          url: `${site.url}/books/${book.slug}/`,
+          description: book.intro,
+        }),
+      ],
+    ]
   },
 
   themeConfig: {

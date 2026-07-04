@@ -1,0 +1,25 @@
+/* Noto Serif SC 中文子集（按全站语料子集化，见 site/scripts/subset-fonts.py）
+   拉丁字形由 @fontsource/noto-serif-sc 的 latin css 提供（theme/index.ts 引入） */
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./fonts/noto-serif-sc-subset-400.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(./fonts/noto-serif-sc-subset-600.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Noto Serif SC';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(./fonts/noto-serif-sc-subset-700.woff2) format('woff2');
+}

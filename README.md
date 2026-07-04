@@ -19,14 +19,14 @@
 
 ## 📚 收录书目
 
-| 书名 | 核心命题 | 在线阅读 |
-|------|---------|:--------:|
-| **财富自由之路** | 赎回被出售的时间自主权，把注意力放在成长上 | [阅读](https://xiaolai.fate.red/books/caifu-ziyou/) |
-| **财富的真相** | 财富唯一正当的来源是生产，唯一手段是足够久的积累 | [阅读](https://xiaolai.fate.red/books/caifu-zhenxiang/) |
-| **让时间陪你慢慢变富** | 普通人靠谱的投资只有定投：长期、定期、定额、选对标的 | [阅读](https://xiaolai.fate.red/books/man-man-bianfu/) |
-| **思考的真相** | 思考只有定义、分类、比较、因果四个要素 | [阅读](https://xiaolai.fate.red/books/sikao-zhenxiang/) |
-| **专注的真相** | 注意力是最稀缺的资源，真正的专注扎根于价值观 | [阅读](https://xiaolai.fate.red/books/zhuanzhu-zhenxiang/) |
-| **韭菜的自我修养** | 降低交易频次，看周期而非趋势 | [阅读](https://xiaolai.fate.red/books/jiucai/) |
+| 书名 | 出版年份 | 核心命题 | 在线阅读 |
+|------|:-------:|---------|:--------:|
+| **财富自由之路** | 2017 | 赎回被出售的时间自主权，把注意力放在成长上 | [阅读](https://xiaolai.fate.red/books/caifu-ziyou/) |
+| **韭菜的自我修养** | 2018 | 降低交易频次，看周期而非趋势 | [阅读](https://xiaolai.fate.red/books/jiucai/) |
+| **让时间陪你慢慢变富** | 2020 | 普通人靠谱的投资只有定投：长期、定期、定额、选对标的 | [阅读](https://xiaolai.fate.red/books/man-man-bianfu/) |
+| **财富的真相** | 2023 | 财富唯一正当的来源是生产，唯一手段是足够久的积累 | [阅读](https://xiaolai.fate.red/books/caifu-zhenxiang/) |
+| **思考的真相** | 2024 | 思考只有定义、分类、比较、因果四个要素 | [阅读](https://xiaolai.fate.red/books/sikao-zhenxiang/) |
+| **专注的真相** | 2024 | 注意力是最稀缺的资源，真正的专注扎根于价值观 | [阅读](https://xiaolai.fate.red/books/zhuanzhu-zhenxiang/) |
 
 ## 🌐 阅读方式
 

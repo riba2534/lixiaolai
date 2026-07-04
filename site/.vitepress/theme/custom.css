@@ -3,7 +3,7 @@
    ══════════════════════════════════════════════════════════ */
 
 :root {
-  --vp-font-family-base: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', Georgia, serif;
+  --vp-font-family-base: 'Noto Serif SC', 'Source Han Serif SC', 'Songti SC', 'SimSun', Georgia, serif;
   --vp-font-family-mono: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
 
   /* 书籍质感的暖金色调 */
@@ -94,6 +94,14 @@
   color: var(--vp-c-text-1);
   line-height: 1.3;
   font-family: var(--vp-font-family-base);
+}
+
+.book-card__year {
+  margin-left: 8px;
+  font-size: 12.5px;
+  font-weight: 400;
+  color: var(--vp-c-text-3);
+  letter-spacing: 0.02em;
 }
 
 .book-card__subtitle {
@@ -277,8 +285,15 @@
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 
+/* 暗色模式：白底插图"裱框"处理——细边框 + 轻微压亮，避免纯白矩形刺眼 */
 .dark .vp-doc img {
+  border: 1px solid var(--vp-c-divider);
+  filter: brightness(0.88);
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dark .book-card__cover img {
+  border: none;
 }
 
 /* 书架卡片与落地页的封面图不适用正文插图排版（margin 会把封面顶出容器，露出背景黑条） */
@@ -323,10 +338,12 @@
   border-radius: 0 4px 4px 0;
 }
 
-/* 表格 */
+/* 表格：窄表居中，宽表在自身容器内横向滚动（不撑破移动端页面） */
 .vp-doc table {
-  display: table;
-  width: auto;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
   margin: 1.5em auto;
   border-collapse: collapse;
   font-size: 0.95em;
@@ -358,6 +375,45 @@
 
 .vp-doc .footnotes ol {
   padding-left: 1.5em;
+}
+
+/* 顶部阅读进度条 */
+.reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: 51;
+  pointer-events: none;
+}
+
+.reading-progress__bar {
+  height: 100%;
+  width: 0;
+  background: var(--vp-c-brand-1);
+  transition: width 0.08s linear;
+}
+
+/* 打印：只保留正文 */
+@media print {
+  .VPNav,
+  .VPLocalNav,
+  .VPSidebar,
+  .VPDocFooter,
+  .VPFooter,
+  .VPDoc aside,
+  .reading-progress,
+  .vp-doc .header-anchor {
+    display: none !important;
+  }
+  .VPDoc {
+    padding: 0 !important;
+  }
+  .VPDoc .container .content {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
 }
 
 /* 移动端书架单列 */

@@ -9,6 +9,10 @@ permissions:
   contents: read
   deployments: write
 
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest

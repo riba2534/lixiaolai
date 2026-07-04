@@ -8,6 +8,7 @@ export interface BookMeta {
   author: string
   cover: string // public 下的路径
   intro: string // 一句话简介（首页卡片用）
+  year: number // 纸质版出版年份
   pages: number // 数字版 PDF 页数（填 Release 用，构建后回填）
 }
 
@@ -19,6 +20,7 @@ export const books: BookMeta[] = [
     author: '李笑来',
     cover: '/covers/caifu-ziyou.jpg',
     intro: '财富自由不是钱多，而是不再为生活出售自己的时间。用“注意力 > 时间 > 金钱”的排序，升级你出售时间的方式。',
+    year: 2017,
     pages: 0
   },
   {
@@ -28,6 +30,7 @@ export const books: BookMeta[] = [
     author: '李笑来',
     cover: '/covers/caifu-zhenxiang.jpg',
     intro: '钱从哪来？财富唯一正当的来源是生产，把钱变成财富靠足够久的积累；而最本质的生产资料——知识和时间——人人都有。',
+    year: 2023,
     pages: 0
   },
   {
@@ -37,6 +40,7 @@ export const books: BookMeta[] = [
     author: '李笑来',
     cover: '/covers/man-man-bianfu.jpg',
     intro: '长期、定期、定额、选对标的。用“主动地被动”走出微笑曲线，让钱不停地替你赚钱。',
+    year: 2020,
     pages: 0
   },
   {
@@ -46,6 +50,7 @@ export const books: BookMeta[] = [
     author: '李笑来',
     cover: '/covers/sikao-zhenxiang.jpg',
     intro: '定义、分类、比较、因果——再复杂的问题，也能按这个顺序拆成简单要素，逐一突破。',
+    year: 2024,
     pages: 0
   },
   {
@@ -55,6 +60,7 @@ export const books: BookMeta[] = [
     author: '李笑来',
     cover: '/covers/zhuanzhu-zhenxiang.jpg',
     intro: '多巴胺不是快乐物质，而是驱使你不停刷手机的冲动物质。用一把标尺——“值吗？”——夺回你的注意力。',
+    year: 2024,
     pages: 0
   },
   {
@@ -64,6 +70,7 @@ export const books: BookMeta[] = [
     author: '李笑来',
     cover: '/covers/jiucai.jpg',
     intro: '所谓“韭菜”，是把非零和市场当零和游戏玩的交易者。降低交易频次、看懂周期，是唯一的翻身之路。',
+    year: 2018,
     pages: 0
   }
 ]

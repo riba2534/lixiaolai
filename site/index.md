@@ -36,7 +36,7 @@ features:
   <a class="book-card" href="/books/caifu-ziyou/">
     <div class="book-card__cover"><img src="/covers/caifu-ziyou.jpg" alt="财富自由之路" loading="lazy"></div>
     <div class="book-card__body">
-      <div class="book-card__title">财富自由之路</div>
+      <div class="book-card__title">财富自由之路<span class="book-card__year">2017</span></div>
       <div class="book-card__subtitle">赎回被你出售的时间自主权</div>
       <div class="book-card__intro">财富自由不是钱多，而是不再为生活出售自己的时间。用“注意力 > 时间 > 金钱”的排序，升级你出售时间的方式。</div>
       <div class="book-card__cta">开始阅读</div>
@@ -45,7 +45,7 @@ features:
   <a class="book-card" href="/books/caifu-zhenxiang/">
     <div class="book-card__cover"><img src="/covers/caifu-zhenxiang.jpg" alt="财富的真相" loading="lazy"></div>
     <div class="book-card__body">
-      <div class="book-card__title">财富的真相</div>
+      <div class="book-card__title">财富的真相<span class="book-card__year">2023</span></div>
       <div class="book-card__subtitle">财富唯一正当的来源是生产</div>
       <div class="book-card__intro">钱从哪来？财富唯一正当的来源是生产，把钱变成财富靠足够久的积累；而最本质的生产资料——知识和时间——人人都有。</div>
       <div class="book-card__cta">开始阅读</div>
@@ -54,7 +54,7 @@ features:
   <a class="book-card" href="/books/man-man-bianfu/">
     <div class="book-card__cover"><img src="/covers/man-man-bianfu.jpg" alt="让时间陪你慢慢变富" loading="lazy"></div>
     <div class="book-card__body">
-      <div class="book-card__title">让时间陪你慢慢变富</div>
+      <div class="book-card__title">让时间陪你慢慢变富<span class="book-card__year">2020</span></div>
       <div class="book-card__subtitle">普通人靠谱的投资只有定投</div>
       <div class="book-card__intro">长期、定期、定额、选对标的。用“主动地被动”走出微笑曲线，让钱不停地替你赚钱。</div>
       <div class="book-card__cta">开始阅读</div>
@@ -63,7 +63,7 @@ features:
   <a class="book-card" href="/books/sikao-zhenxiang/">
     <div class="book-card__cover"><img src="/covers/sikao-zhenxiang.jpg" alt="思考的真相" loading="lazy"></div>
     <div class="book-card__body">
-      <div class="book-card__title">思考的真相</div>
+      <div class="book-card__title">思考的真相<span class="book-card__year">2024</span></div>
       <div class="book-card__subtitle">思考只有四个要素</div>
       <div class="book-card__intro">定义、分类、比较、因果——再复杂的问题，也能按这个顺序拆成简单要素，逐一突破。</div>
       <div class="book-card__cta">开始阅读</div>
@@ -72,7 +72,7 @@ features:
   <a class="book-card" href="/books/zhuanzhu-zhenxiang/">
     <div class="book-card__cover"><img src="/covers/zhuanzhu-zhenxiang.jpg" alt="专注的真相" loading="lazy"></div>
     <div class="book-card__body">
-      <div class="book-card__title">专注的真相</div>
+      <div class="book-card__title">专注的真相<span class="book-card__year">2024</span></div>
       <div class="book-card__subtitle">注意力是最稀缺的资源</div>
       <div class="book-card__intro">多巴胺不是快乐物质，而是驱使你不停刷手机的冲动物质。用一把标尺——“值吗？”——夺回你的注意力。</div>
       <div class="book-card__cta">开始阅读</div>
@@ -81,7 +81,7 @@ features:
   <a class="book-card" href="/books/jiucai/">
     <div class="book-card__cover"><img src="/covers/jiucai.jpg" alt="韭菜的自我修养" loading="lazy"></div>
     <div class="book-card__body">
-      <div class="book-card__title">韭菜的自我修养</div>
+      <div class="book-card__title">韭菜的自我修养<span class="book-card__year">2018</span></div>
       <div class="book-card__subtitle">降低交易频次，看懂周期</div>
       <div class="book-card__intro">所谓“韭菜”，是把非零和市场当零和游戏玩的交易者。降低交易频次、看懂周期，是唯一的翻身之路。</div>
       <div class="book-card__cta">开始阅读</div>
