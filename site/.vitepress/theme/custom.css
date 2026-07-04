@@ -304,6 +304,15 @@
   font-style: normal;
 }
 
+/* 图片点击放大（medium-zoom）：遮罩与放大图需盖过导航栏(30)与侧边栏(60) */
+.medium-zoom-overlay {
+  z-index: 100;
+}
+
+.medium-zoom-image--opened {
+  z-index: 101;
+}
+
 /* 引用 */
 .vp-doc blockquote {
   border-left: 4px solid var(--vp-c-brand-1);
