@@ -86,7 +86,10 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
 
-    socialLinks: [{ icon: 'github', link: site.github }],
+    socialLinks: [
+      { icon: 'x', link: 'https://x.com/riba2534' },
+      { icon: 'github', link: site.github },
+    ],
 
     footer: {
       message: '仅供学习交流使用 · 著作权归原作者及出版社所有',
